@@ -25,7 +25,7 @@ I had took about 1 to 1.5 hours approximately to complete this project.
 
 ## PROJECT LIVE LINK
 
-SEE PROJECT LIVE : [Live Link]()
+SEE PROJECT LIVE : [Live Link](https://html-css-project02.netlify.app/)
 
 ## CONNECT WITH ME ON
 - [FACEBOOK](https://www.facebook.com/vivekranjan0144/)
