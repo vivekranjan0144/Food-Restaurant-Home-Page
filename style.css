@@ -10,7 +10,7 @@
 body {
   background-image:linear-gradient(to right, rgba(2, 2, 90, 0.4),rgba(2, 2, 90, 0.4)), url(assets/pexels-maxyne-barcel-10402282\ 1.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 110%;
   height: 100vh;
 }
 
@@ -105,7 +105,7 @@ body {
   body {
   background-size: cover;
   width: 100vw;
-  height: fit-content;
+  height: 150vh;
   }
 
   .navbar {
@@ -116,8 +116,10 @@ body {
   .logo {
     width: 20vw;
   }
+  
   .hero-heading {
-    font-size: 6vw;
+    text-align: center;
+    font-size: 9vw;
   }
 
   .list {
@@ -145,4 +147,9 @@ body {
   }
 }
 
+@media screen and (max-width:800px) {
+  .hero-heading {
+    font-size: 3rem;
+  }
+}
 /* ----------------------------------------------------------------- */
