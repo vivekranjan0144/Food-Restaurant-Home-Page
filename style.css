@@ -5,25 +5,31 @@
   font-family: "Red Rose", cursive;
 }
 
-/* ------------------------------ */
+/* ----------------------------Body---------------------------------- */
+
 body {
   background-image:linear-gradient(to right, rgba(2, 2, 90, 0.4),rgba(2, 2, 90, 0.4)), url(assets/pexels-maxyne-barcel-10402282\ 1.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
 }
-/* ---------- NAVBAR ------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* ----------------------------navBar-------------------------------- */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 3em;
+  padding: 1em 3vw;
 }
 
 .list {
   list-style-type: none;
   display: flex;
-  gap: 6em;
+  width: 30vw;
+  justify-content: space-between;
   color: #FFC233;
 }
 
@@ -41,47 +47,102 @@ body {
   font-size: 1.3em;
   cursor: pointer;
 }
-/* ------------------------------ */
 
-/* ------------------------------ */
-/* ---------- HERO ------------ */
+/* ------------------------------------------------------------------ */
+
+/* ----------------------------- HERO ------------------------------- */
+
 .hero {
   height: 85vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .hero h1 {
-  width: 79vw;
+  margin-top: 1em;
+  width: 65vw;
 }
 
 .hero-heading {
   color: #FFC233;
-  font-size: 7em;
+  font-size: 7vw;
   text-align: center;
   line-height: 1;
   word-spacing: 1;
 }
 
 .button-large {
-  width: 200px;
-}
-
-.button-large {
   margin-top: 2em;
   border: none;
-  padding: 0.7em 0.4em;
+  padding: 0.7em 0.8em;
   background-color: #FF505F;
   color: #ffffff;
   font-weight: 900;
   font-size: 1.3em;
   cursor: pointer;
 }
-/* ------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/*---------------------------Bottom-----------------------------------*/
+
 .bottom {
   position: absolute;
   bottom: 3%;
   right: 5%;
+  cursor: pointer;
 }
+
+
+
+/*--------------------------------------------------------------------*/
+
+/*----------------------media Query-----------------------------------*/
+
+@media screen and (max-width:1233px){
+  
+  body {
+  background-size: cover;
+  width: 100vw;
+  height: fit-content;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .logo {
+    width: 20vw;
+  }
+  .hero-heading {
+    font-size: 6vw;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .button-small {
+    font-size: 2vw;
+  }
+  .button-large {
+    font-size: 3vw;
+  }
+
+  .bottom {
+    position: relative;
+    top: 05%;
+    left: auto;
+    right: auto;
+  }
+
+  .bottom>div img {
+    width: 20vw;
+  }
+}
+
+/* ----------------------------------------------------------------- */
