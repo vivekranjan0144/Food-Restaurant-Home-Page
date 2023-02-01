@@ -9,9 +9,12 @@ This is Food Restaurant Home Page project made with technology HTML & CSS. I hav
   - CSS - Cascadeing Spread Sheet
 
 ## Demo Video in Desktop Screen
-[Project-2.webm](https://user-images.githubusercontent.com/100980716/215981363-9257375e-eb99-4d8c-a049-c5434a5d41e8.webm)
+
+[Project-2.webm](https://user-images.githubusercontent.com/100980716/215982240-e7d8110e-af14-47b6-9d58-d0a540e2dee4.webm)
+
 Demo Video in Mobile Screen
-https://user-images.githubusercontent.com/100980716/215981751-e9aefe1b-c6f0-4757-97d8-4750467c26ad.mp4
+
+https://user-images.githubusercontent.com/100980716/215984275-294566bd-b0fc-4486-90a1-395a944dcc45.mp4
 
 
 ## What i have learnt By working on this project
