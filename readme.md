@@ -1,17 +1,17 @@
 
 # HTML-CSS PROJECT-2
 
-This is Food Restaurant Home Page project made with technology HTML & CSS.
-I haven't made it responsive it only works in desktop/laptop screen.
-I will make it responsive ASAP.
+This is Food Restaurant Home Page project made with technology HTML & CSS. I have made it responsive it works in both desktop screen and mobile screen.
 
 
 ## 🛠 Technologies Used
   - HTML - Hyper Text Markup Language
   - CSS - Cascadeing Spread Sheet
 
-## Demo
-  ![project-2](/demo/project-2.gif)
+## Demo Video in Desktop Screen
+[Project-2.webm](https://user-images.githubusercontent.com/100980716/215981363-9257375e-eb99-4d8c-a049-c5434a5d41e8.webm)
+Demo Video in Mobile Screen
+https://user-images.githubusercontent.com/100980716/215981751-e9aefe1b-c6f0-4757-97d8-4750467c26ad.mp4
 
 
 ## What i have learnt By working on this project
